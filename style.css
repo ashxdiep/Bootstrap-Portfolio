@@ -1,0 +1,143 @@
+footer{
+	background-color: #666;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	padding: 20px;
+}
+
+.navbar{
+  border-bottom-style:solid;
+  border-bottom-color: #666;
+  border-bottom-width: thick;
+}
+.navbar-brand{
+  color: #eee;
+  background-color: #4aaaa5;
+  font-size: 30px;
+  padding-top: 25px;
+  margin-left: 5%;
+  height: 70px;
+}
+.container-fluid > .navbar-header{
+  margin-right: 0;
+  margin-left: 11%;
+}
+h1{
+  color: #4aaaa5;
+}
+
+.panel-body > img {
+      width: 20%;
+      margin-left: 10%;
+}
+.panel{
+  margin-top: 10%;
+  border-style: solid;
+  border-color: #000;
+}
+.panel-title {
+    color: #4aaaa5;
+  }
+.thumbnail {
+    height: 200px;
+    margin-left: 35%;
+  }
+.row {
+    background-color: #ddd;
+    border-bottom: solid;
+    border-bottom-color: #4aaaa5;
+    border-bottom-width: 5px;
+
+}
+.col-sm-8 {
+    width: 60%;
+    background-color: #fff;
+    margin-left: 5%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+
+}
+.col-sm-12 {
+    background-color: #fff;
+
+}
+
+.projimg{
+  float: left;
+  position: relative;
+  padding: 20px;
+  left: 7%;
+}
+
+.projects{
+  width: 150px;
+  height: 150px;
+}
+
+.box{
+  background-color: #fff;
+  overflow: auto;
+}
+.ontop{
+	background-color: #4aaaa5;
+    color: #fff;
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+    right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.form-group{
+  padding:10px;
+}
+  @media only screen and (max-width: 980px){
+    .form-inline .form-control {
+    width: 100%;
+    }
+  }
+  @media only screen and (max-width: 768px){
+    .form-inline {
+    margin-left: 15%;
+    padding-bottom: 20px;
+  }
+    .col-sm-8{
+      width: 93%
+    }
+
+    .panel{
+      margin-top: 0px;
+      margin-left: 3%;
+    }
+
+    h1 {
+      padding-top: 10px;
+      text-align: center;
+    }
+
+    .portimg{
+      width: 20%;
+    }
+
+    @media only screen and (max-width: 640px){
+      .projimg{
+        width: 85%;
+      }
+
+      .projects{
+        width: 70%;
+        margin-left: 70px;
+      }
+
+      .ontop{
+        width: 63%;
+        left: 90px;
+      }
+
+      .form-inline {
+      margin-left: 2%;
+      }
+    }
+}
